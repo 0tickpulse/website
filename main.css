@@ -1,0 +1,123 @@
+html {
+	background: #e6e9e9;
+	background-image: url(https://image.freepik.com/free-vector/gray-white-crystal-textured-background_53876-86343.jpg);
+	background-repeat:repeat;
+	background-attachment:fixed;
+	overflow:scroll
+	-webkit-font-smoothing: antialiased;
+}
+/* The sidebar menu */
+.sidenav {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 190px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #111; /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 20px;
+		box-shadow:0px 5px 10px #1c1c1c;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+.sidenav h1 {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+	margin-left: 190px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+.left{
+	float:left;
+	padding: 0em 1em 1em
+}
+
+.clear{
+	clear:both;
+}
+.topleft{
+	text-align: left;
+}
+tr {
+	height: 50px;
+	vertical-align: top;
+}
+body {
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+	color: #000000;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";	font-size: 16px;
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 2em 2em 4em;
+	box-shadow:0px 5px 10px #1c1c1c;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+
+}
+
+a {
+	color: #0083e8;
+}
+
+math {
+	font-family:latin-modern-math;
+}
+
+b, strong {
+	font-weight: 600;
+}
+
+samp {
+	display: none;
+}
+
+img {
+	animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+	background: transparent;
+	border: 10px solid rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	display: block;
+	margin: 1.3em auto;
+	max-width: 95%;
+}
+
+@keyframes colorize {
+	0% {
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+	100% {
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+	}
+}
